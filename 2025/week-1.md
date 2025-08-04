@@ -121,8 +121,8 @@
 
 ## 🙌 投稿建议 / Recommend a Site?
 
-欢迎通过 Issue 或 PR 推荐你心中的“宝藏网站”：  
-[👉 点这里打开投稿 Issue]([https://github.com/BlueSoul2003/weekly-sites-collection])
+欢迎通过 Issue 推荐你心中的“宝藏网站”：  
+[👉 点这里打开投稿 Issue](https://github.com/BlueSoul2003/weekly-sites-collection/issues)
 
 ---
 
