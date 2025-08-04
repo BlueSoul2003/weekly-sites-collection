@@ -78,7 +78,7 @@
 ### 8. 🎨 [Leonardo.Ai](https://leonardo.ai)  
 🎯 高质量图像生成平台，可训练风格、制作游戏角色、建筑图等，支持创意输出。
 
-![Leonardo Preview](../assets/week-1/leonardoai.png)
+![Leonardo Preview](../assets/week-1/leonardo.png)
 
 💬 **个人体验 / 使用建议**：_个人习惯让ChatGPT生成prompt后丢给它来生成，但是自从sora出来后就减少使用频率了_
 
