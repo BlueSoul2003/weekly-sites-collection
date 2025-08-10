@@ -11,7 +11,7 @@
 ## 📅 Latest Issues / 最新一期
 
 -  [Week 1 - 功能神器、AI工具与趣味网站](./2025/week-1.md)
-- 
+-  [Week 2 - 免费在线游戏推荐特辑 🎮](./2025/week-2.md)
 - 
 
 👉 *Updated every Sunday. Don't miss out!*  
