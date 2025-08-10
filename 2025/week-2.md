@@ -13,6 +13,7 @@
 ![Slither.io Preview](../assets/week-2/slitherio.png)
 
 💬 **个人体验 / 使用建议**：_很经典的io游戏 好几年前蛮火的，现在游玩人数还是有蛮多的_
+
 ---
 
 ### 2. 🌊 [Vortex.io](https://www.crazygames.com/game/vortex-io)
