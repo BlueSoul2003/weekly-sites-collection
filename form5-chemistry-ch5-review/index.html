@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Form 5 Chemistry Review — 5.1 & 5.2</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="eyebrow">KSSM FORM 5 CHEMISTRY · CHAPTER 5</div>
+      <h1>5.1 Oils & Fats + 5.2 Cleaning Agents</h1>
+      <p>30-question revision before the next lesson · Questions & options in English · 中文錯題解析</p>
+    </header>
+
+    <section id="startScreen" class="card start-card">
+      <div class="section-tag">Revision Check</div>
+      <h2>Ready?</h2>
+      <p class="muted">15 questions from 5.1 + 15 questions from 5.2. Complete all questions, then generate a detailed report.</p>
+      <label class="field">
+        <span>Student name</span>
+        <input id="studentName" type="text" maxlength="60" placeholder="Enter your name" autocomplete="name" />
+      </label>
+      <div class="info-grid">
+        <div><strong>30</strong><span>Questions</span></div>
+        <div><strong>2</strong><span>Sections</span></div>
+        <div><strong>中文</strong><span>Explanations</span></div>
+      </div>
+      <button id="startBtn" class="primary">Start Review</button>
+      <p class="privacy-note">Results stay on this device unless the student chooses “Copy report link” and shares it.</p>
+    </section>
+
+    <section id="quizScreen" class="hidden">
+      <div class="sticky-progress card">
+        <div class="progress-top">
+          <div>
+            <span class="section-tag" id="sectionLabel">Section 5.1</span>
+            <strong id="progressText">Question 1 of 30</strong>
+          </div>
+          <span id="answeredCount">0 answered</span>
+        </div>
+        <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+      </div>
+
+      <form id="quizForm" class="questions"></form>
+
+      <div class="submit-wrap card">
+        <div>
+          <strong>Finished all 30?</strong>
+          <p class="muted">You can still submit with unanswered questions, but they will count as incorrect.</p>
+        </div>
+        <button id="submitBtn" type="button" class="primary">Submit & Generate Report</button>
+      </div>
+    </section>
+
+    <section id="reportScreen" class="hidden">
+      <div class="card report-hero">
+        <div>
+          <div class="section-tag">Revision Report</div>
+          <h2 id="reportTitle">Results</h2>
+          <p id="reportMeta" class="muted"></p>
+        </div>
+        <div class="score-ring" id="scoreRing"><span id="scorePct">0%</span></div>
+      </div>
+
+      <div class="summary-grid">
+        <div class="card stat"><span>Overall</span><strong id="overallScore">0 / 30</strong></div>
+        <div class="card stat"><span>5.1 Oils & Fats</span><strong id="score51">0 / 15</strong></div>
+        <div class="card stat"><span>5.2 Cleaning Agents</span><strong id="score52">0 / 15</strong></div>
+        <div class="card stat"><span>Need Review</span><strong id="wrongCount">0</strong></div>
+      </div>
+
+      <div class="report-actions card no-print">
+        <button id="copyLinkBtn" class="primary">Copy Report Link</button>
+        <button id="printBtn" class="secondary">Print / Save PDF</button>
+        <button id="retryBtn" class="secondary">Try Again</button>
+      </div>
+
+      <section class="card analysis-card">
+        <div class="section-head">
+          <div>
+            <div class="section-tag">錯題分析</div>
+            <h2>Questions to Review</h2>
+          </div>
+          <span id="reviewBadge" class="badge"></span>
+        </div>
+        <div id="wrongReview"></div>
+      </section>
+
+      <section class="card analysis-card">
+        <div class="section-head">
+          <div>
+            <div class="section-tag">Full Answer Record</div>
+            <h2>All 30 Questions</h2>
+          </div>
+        </div>
+        <div id="fullReview"></div>
+      </section>
+    </section>
+  </main>
+
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
